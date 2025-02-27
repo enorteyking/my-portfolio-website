@@ -24,3 +24,8 @@ document.querySelectorAll(".counter-box").forEach(box => {
 });
 
 countUp(); // Run the counter function for all numbers
+
+function toggleDiv() {
+    let div = document.getElementById("popupDiv");
+    div.classList.toggle("hidden");
+  }
