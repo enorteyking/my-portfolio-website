@@ -12,11 +12,11 @@
 }
 
 :root {
-  --bg-color:#fdfdfd;
-  --text-color:#333;
-  --main-color:#754ef9;
-  --white-color:#fdfdfd;
-  --shadow-color: rgba(0,0,0,0.2);
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --main-color: #754ef9;
+  --white-color: #fdfdfd;
+  --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -35,7 +35,6 @@ body {
   left: 0;
   width: 100%;
   padding: 2rem 7%;
-  background: yellowgreen;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -84,7 +83,7 @@ section {
 }
 
 .home .home-content {
-  max-width:  44rem;
+  max-width: 44rem;
 }
 
 .home-content h3 {
@@ -96,13 +95,14 @@ section {
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
+  margin-bottom: 0.3rem;
 }
 
 .home-content p {
   font-size: 1.6rem;
 }
 
-.home-content .social-media a{
+.home-content .social-media a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -125,4 +125,48 @@ section {
 
 .btn {
   display: inline-block;
+  padding: 1.2rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 0.6rem;
+  box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
+  font-size: 1.6rem;
+  color: var(--white-color);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  border: 0.2rem solid transparent;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.home .profession-container {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 768px;
+  height: 768px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.home .profession-container .profession-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 768px;
+  height: 768px;
+  background: purple;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .profession-box .profession {
+  position: absolute;
 }
