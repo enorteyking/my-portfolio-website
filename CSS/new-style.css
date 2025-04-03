@@ -12,11 +12,11 @@
 }
 
 :root {
-  --bg-color:#fdfdfd;
-  --text-color:#333;
-  --main-color:#754ef9;
-  --white-color:#fdfdfd;
-  --shadow-color: rgba(0,0,0,0.2);
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --main-color: #754ef9;
+  --white-color: #fdfdfd;
+  --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -84,7 +84,7 @@ section {
 }
 
 .home .home-content {
-  max-width:  44rem;
+  max-width: 44rem;
 }
 
 .home-content h3 {
@@ -103,7 +103,7 @@ section {
   font-size: 1.6rem;
 }
 
-.home-content .social-media a{
+.home-content .social-media a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
