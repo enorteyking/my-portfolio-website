@@ -220,8 +220,8 @@ border-radius: 50%;
 .home-image img {
   position: absolute;
   bottom: 0;
-  right: 50px;
-  width: 38%;
+  right: 60px;
+  width: 36%;
   pointer-events: none;
   transform: scaleX(-1);
 }
